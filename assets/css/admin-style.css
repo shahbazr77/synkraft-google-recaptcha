@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .form-table tr .captcha_inputs{
+    padding-left: 0px;
+  }
+  .form-table tr .captcha_inputs input{
+    color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+    width:100%;
+}
+.form-table tr .captcha_inputs input:focus {
+    border-color: #C0C0C0;
+    background-color: #E2E2E2;
+    color: #252C32;
+    Weight:400;
+    Size: 16px;
+    line-height: 24px; 
+}
+.form-table #recaptcha_v2_site_key_field th{
+    padding-bottom: 0px;
+}
